@@ -1,0 +1,119 @@
+@mixin slideBtnPrev {
+    background:var(--bs-white) url(../img/btn_prev.png) no-repeat;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 1px solid var(--bs-gray-300);
+    &:hover{
+        border-color: var(--bs-black);
+    }
+}
+@mixin slideBtnNext {
+    background:var(--bs-white) url(../img/btn_next.png) no-repeat;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 1px solid var(--bs-gray-300);
+    &:hover{
+        border-color: var(--bs-black);
+    }
+}
+@mixin title {
+    padding: 3rem 0;
+    position: relative;
+    h3{
+        font-weight: bold;
+        background: var(--bs-white);
+    }
+    span{
+        font-size: 0.9rem;
+        color: #888;
+        background: var(--bs-white);
+    }
+    &:after{
+        content: "";
+        width: 92%;
+        height: 1px;
+        background: var(--bs-black);
+        position: absolute;
+        top: 57%;
+        z-index: -1;
+    }
+}
+@mixin text {
+    font-weight: bold;
+    .title{
+        font-size: 13px;
+        color: $pink;
+    }
+    .brand{
+        font-size: 12px;
+        color: #888;
+    }
+    .name{
+        font-size: 14px;
+        color: #222;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+    .price{
+        font-size: 16px;
+        color: #222;
+        .percent{
+            color: #ff5b5d;
+        }
+        .original{
+            font-size: 14px;
+            color: #888;
+            text-decoration: line-through;
+        }
+    }
+    .bottom{
+        width: 100%;
+        height: 21px;
+        .rating{
+            width: 85px;
+            height: 100%;
+            background: url(../img/ico_rating.png) no-repeat 0 -16px;
+            background-size: 85px auto;
+            margin-top: 2px;
+        }
+        .zero{
+            background-position: 0 0 !important;
+            height: 77%;
+        }
+        .review{
+            font-size: 12px;
+            color: #888;
+        }
+        .heart{
+            background: url(../img/ico_like.png) no-repeat;
+            width: 20px;
+            height: 18px;
+            cursor: pointer;
+            margin-top: 2px;
+            margin-left: 75px;
+            &:hover{
+                background-position-y: -18px;
+            }
+        }
+        .cart{
+            width: 17px;
+            height: 20px;
+            background: url(../img/ico_cart.png) no-repeat;
+            background-size: 17px;
+            cursor: pointer;
+            &:hover{
+                background-position: 0 -59px;
+            }
+        }
+    }
+}

@@ -1,0 +1,2959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='Title' content='Banila.com'>
+    <meta name='Subject' content='Banila.com 반응형 redesign'>
+    <meta name='Keywords' content='반응형 Banila.com'>
+    <meta name='Author' content='bia'>
+    <meta name='Publisher' content='bia'>
+    <meta name='Description' content='Banila.com'>
+    <meta name='Author-Date' content='20221215'>
+    <meta name='Robots' content='index,follow'>
+    <title>Banila</title>
+
+    <!-- boot strap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- font awsome -->
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="icoTop"></div>
+        <header id="header" class="header">
+            <div>
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div class="header-linkwrap">
+                        <ul class="d-flex">
+                            <li><a href="#" title="" class="d-block"></a></li>
+                            <li><a href="#" title="" class="d-block"></a></li>
+                            <li><a href="#" title="" class="d-block"></a></li>
+                            <li><a href="#" title="" class="d-block"></a></li>
+                            <li><a href="#" title="" class="d-block"></a></li>
+                        </ul>
+                    </div>
+                    <div class="header-loginwrap">
+                        <ul class="d-flex">
+                            <li class="py-2 px-3 position-relative"><a href="#" title="">로그인</a></li>
+                            <li class="py-2 px-3 position-relative">
+                                <a href="#" title="">회원가입</a>
+                                <span class="onesecond d-block p-1 position-absolute start-0 fw-bold">1초 회원가입</span>
+                            </li>
+                            <li class="py-2 px-3 position-relative"><a href="#" title="">멤버십</a></li>
+                            <li class="py-2 px-3 position-relative"><a href="#" title="">고객센터</a></li>
+                            <li class="py-2 px-3"><select name="" id="" class="">
+                                <option value="">KR</option>
+                                <option value="">EN</option>
+                                <option value="">JP</option>
+                            </select></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4">
+                <div class="container d-flex justify-content-between align-items-center">
+                    <div>
+                        <h1 class="ir_so">logo image</h1>
+                        <a href="./index.html" class="logo d-block"><img src="./img/logo_main.png" alt=""></a>
+                    </div>
+                    <div class="header-searchwrap position-relative">
+                        <input type="text" class="d-block border border-dark rounded-pill py-2 px-3">
+                        <span class="d-block position-absolute top-50 end-0 translate-middle-y"></span>
+                    </div>
+                    <div class="header-mypagewrap">
+                        <ul class="d-flex justify-content-between">
+                            <li>
+                                <a href="#" class="d-block me-3">
+                                    <span class="img d-block mx-auto"></span>
+                                    <span class="text fw-bold">마이페이지</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block me-3">
+                                    <span class="img d-block mx-auto"></span>
+                                    <span class="text fw-bold">최근본상품</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-block position-relative">
+                                    <span class="img d-block mx-auto"></span>
+                                    <span class="text fw-bold">장바구니</span>
+                                    <span class="d-block fw-bold text-white position-absolute top-0 end-0">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav id="nav" class="nav text-white bg-dark position-absolute">
+            <div class="container d-flex justify-content-between">
+                <div class="nav-catewrap fs-6 fw-bold lg-fs-5">
+                    <div class="nav-catetitle py-3 px-5 border-start border-end">
+                        <i class="fas fa-bars"></i>
+                        <span>카테고리</span>
+                    </div>
+                    <div class="nav-catecont p-3 border">
+                        <ul class="d-flex">
+                            <li class="col-4"><a class="border-bottom py-2 pt-3">유형별</a>
+                                <ul>
+                                    <li><a href="#">전체보기</a></li>
+                                    <li><a href="#">클렌징</a></li>
+                                    <li><a href="#">스킨케어</a></li>
+                                    <li><a href="#">마스크/팩</a></li>
+                                    <li><a href="#">베이스 메이크업</a></li>
+                                    <li><a href="#">페이스 메이크업</a></li>
+                                    <li><a href="#">립 메이크업</a></li>
+                                    <li><a href="#">아이 메이크업</a></li>
+                                    <li><a href="#">선케어</a></li>
+                                    <li><a href="#">미용소품</a></li>
+                                    <li><a href="#">세트</a></li>
+                                    <li><a href="#">패션</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-4"><a href="#"class="border-bottom mx-1 py-2 pt-3">피부고민별</a>
+                                <ul>
+                                    <li><a href="#">수분/보습</a></li>
+                                    <li><a href="#">탄력/주름개선</a></li>
+                                    <li><a href="#">민감/트러블</a></li>
+                                    <li><a href="#">모공/피지</a></li>
+                                    <li><a href="#">미백/톤개선</a></li>
+                                    <li><a href="#">영양</a></li>
+                                    <li><a href="#">각질/결개선</a></li>
+                                    <li><a href="#">진정/수딩</a></li>
+                                </ul>
+                            </li>
+                            <li class="col-4"><a href="#"class="border-bottom py-2 pt-3">키워드</a>
+                                <ul>
+                                    <li><a href="#">#ONLY 바닐라닷컴</a></li>
+                                    <li><a href="#">나만의 #무드ON</a></li>
+                                    <li><a href="#">#LAST CHANCE</a></li>
+                                    <li><a href="#">#TOOL</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="nav-slide my-3 position-relative mx-auto">
+                            <div class="mx-auto">
+                                <ul class="movingUl position-relative">
+                                    <li class="movingLi float-start"><a href="javacript:"><img src="./img/nav_slide1.jpg" alt=""></a></li>
+                                    <li class="movingLi float-start"><a href="javacript:"><img src="./img/nav_slide2.jpg" alt=""></a></li>
+                                    <li class="movingLi float-start"><a href="javacript:"><img src="./img/nav_slide3.jpg" alt=""></a></li>
+                                </ul>
+                                
+                            </div>
+                            <span class="nbtnPrev d-block"></span>
+                            <span class="nbtnNext d-block"></span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav-list d-flex">
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">피부고민별</a></li>
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">베스트</a></li>
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">이벤트</a></li>
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">세일ON</a></li>
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">출석체크</a></li>
+                    <li><a href="#" class="d-block fw-bold fs-6 py-3 px-4 text-white">VR STORE</a></li>
+                </ul>
+                <ul class="nav-ico d-flex align-items-center">
+                    <li class="me-2"><a href="#"></a></li>
+                    <li class="me-2"><a href="#"></a></li>
+                    <li class="me-2"><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </nav>
+        <main id="main" class="main">
+            <section class="main-sec1">
+                <div class="container">
+                    <div class="main-sec1-nav position-absolute">
+                        <ul class="bg-white">
+                            <li><a href="#">전체보기</a></li>
+                            <li><a href="#">클렌징</a></li>
+                            <li><a href="#">스킨케어</a></li>
+                            <li><a href="#">마스크/팩</a></li>
+                            <li><a href="#">선케어</a></li>
+                            <li><a href="#">베이스 메이크업</a></li>
+                            <li><a href="#">립 메이크업</a></li>
+                            <li><a href="#">아이 메이크업</a></li>
+                            <li><a href="#">페이스 메이크업</a></li>
+                            <li><a href="#">미용소품</a></li>
+                            <li><a href="#">세트</a></li>
+                            <li><a href="#">패션</a></li>
+                        </ul>
+                    </div>
+                <div>
+            </section>
+            <section class="main-sec2">
+                <div class="swiper mySwiper container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./img/main_slide1.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide2.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide3.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide4.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide5.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide6.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide7.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide8.jpg" alt=""></div>
+                      <div class="swiper-slide"><img src="./img/main_slide9.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination fs-6"></div>
+                  </div>
+            </section>
+            <section class="main-sec3 position-relative my-5">
+                <div class="main-sec3-tab">
+                    <ul class="d-flex justify-content-center position-relative">
+                        <li><a href=".main-sec3-contwrap1" class="on d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#NEW신제품</a></li>
+                        <li><a href=".main-sec3-contwrap2" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#뷰티룩</a></li>
+                        <li><a href=".main-sec3-contwrap3" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#2022어워드</a></li>
+                        <li><a href=".main-sec3-contwrap4" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#꿀보습허니</a></li>
+                        <br>
+                        <li><a href=".main-sec3-contwrap5" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#클린잇제로X이슬로</a></li>
+                        <li><a href=".main-sec3-contwrap6" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#수분충전</a></li>
+                        <li><a href=".main-sec3-contwrap7" class="d-block px-3 py-2 fs-6 border rounded-pill mx-3 mt-3">#커버리셔스</a></li>
+                    </ul>
+                </div>
+                <div class="main-sec3-wrap border-bottom border-dark">
+                    <div class="new container">
+                        <div class="main-sec3-hotkwrap my-5">
+                            <h2>주목받는 핫 키워드 #NEW 신제품</h2>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap1 block">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린잇제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            22,500원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 4)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분 밀착 집중 케어</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 워터 듀 마스크</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            2,700원
+                                            <span class="original d-block ms-2">3,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 1)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">촉촉한 수분 밀착 핑크 립밤</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 모이스처 립밤</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">5%</span>
+                                            9,500원
+                                            <span class="original d-block ms-2">10,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 2)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분 밀착 핑크 립밤 세트</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 모이스처 립밤</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            18,000원
+                                            <span class="original d-block ms-2">20,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 1)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-21로제(본품+리필)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 45)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">FW NEW 컬러 출시</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">정한 PICK💗 프라이밍 베일 치크-PK02 문리버</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            13,500원
+                                            <span class="original d-block ms-2">15,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 245)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">FW NEW 컬러 출시</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">정한 PICK💗 프라이밍 베일 치크-PK02 문리버</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            13,500원
+                                            <span class="original d-block ms-2">15,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 244)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img8"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">볼과 입술에 꽃잎결 무드 담기</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">블루밍 페탈 에디션 립&프라이밍 베일 치크 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            24,800원
+                                            <span class="original d-block ms-2">31,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 117)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img9"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">뮤트톤의 데일리 모브 컬러</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">무드 온 아이 팔레트-03 멜로우 모브-7G (뉴컬러)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 62)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img10"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">뮤트톤의 데일리 모브 컬러</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">무드 온 아이 팔레트-04 멜로우 모브-7G (뉴컬러)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 62)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap2">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                    <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">#뭉침없이 자연스러운 눈썹 표현</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">스머지 아웃 디테일 브로우 펜슬</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            10,800원
+                                            <span class="original d-block ms-2">12,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 256)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                  </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-21로제(본품+리필)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 45)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">소프트톤의 데일리 모브 컬러</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">무드 온 아이 팔레트-03 멜로우 모브-7G (뉴컬러)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 62)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">프라이밍 효과로 미끄러지듯한 피부표현</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">프라이밍 베일 치크-BE01 멜로우니스</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            13,500원
+                                            <span class="original d-block ms-2">15,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 66)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">유분 잡고 예쁜 피부 지속!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">프라임 프라이머 피니쉬 파우더 12g</div>
+                                        <div class="price d-flex">
+                                            22,000원
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 328)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">2컬러 구매 시 틴트 리무버 증정</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">글로우 베일 틴트 듀오 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            25,600원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 29)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">뮤트톤의 데일리 모브 컬러</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">무드 온 아이 팔레트-04 멜로우 모브-7G (뉴컬러)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 62)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap3">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">매일 쓰니까 넉넉하게</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 대용량 듀오 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            45,000원
+                                            <span class="original d-block ms-2">50,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 1075)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">갈아만든 입자로 36시간 밀착!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            28,800원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 599)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            25,500원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 180)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">유분 잡고 예쁜 피부 지속!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">프라임 프라이머 피니쉬 파우더 12g</div>
+                                        <div class="price d-flex">
+                                            22,000원
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 328)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">쿨 베이스의 누디 모브</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">글로우 베일 틴트-VGPP01 폴 인 모브</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 63)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">뮤트톤의 밀키한 누디 베이지</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">글로우 베일 틴트-VGPK01 누디 니어</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 54)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">밀키하고 고급스러운 시나몬 MLBB</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">글로우 베일 틴트-VGBE01 밀키 시나몬</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 54)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img8"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">입술에 생기를 살려주는 MLBB 로지</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">글로우 베일 틴트-VGRD01 로지 쉘</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 54)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img9"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">가을에 잘 어울리는 뮤트 브릭 레드</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">글로우 베일 틴트-VGRD02 딥 헤이지</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 54)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap4">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">간편한 꿀광보습 집중케어 세트</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 미스트&에센스 스틱 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            32,250원
+                                            <span class="original d-block ms-2">43,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 6)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">피부 깁숙이 촉촉한 앰플</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 앰플 50ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            46,400원
+                                            <span class="original d-block ms-2">58,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 242)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">#리얼꿀피부 #농축포뮬러</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 크림 70ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 225)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">간편한 SOS 집중케어</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 에센스 스틱 멀티밤</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            14,400원
+                                            <span class="original d-block ms-2">18,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 199)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">탄력있는 눈가 케어</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 아이크림 20ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 197)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">영양 듬뿍 보습 토너</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 에센스토너 190ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            25,600원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 119)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">꿀광 수분 #인생 미스트</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 앰플 미스트 99ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            20,000원
+                                            <span class="original d-block ms-2">25,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 205)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img8"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">영양 가득 꿀광채 로션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 로션 150ml</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            28,000원
+                                            <span class="original d-block ms-2">35,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 138)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img9"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분 그 이상의 깊은 영양감</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 2스텝 마스크</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            4,000원
+                                            <span class="original d-block ms-2">5,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 19)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap5">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            37,500원
+                                            <span class="original d-block ms-2">50,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 22)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린잇제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            22,500원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 4)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 오리지널(이슬로2) 100ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            16,200원
+                                            <span class="original d-block ms-2">18,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 97)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량(이슬로2) 180ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            22,500원
+                                            <span class="original d-block ms-2">25,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 2)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 폼 클렌저(이슬로2) 150ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            10,800원
+                                            <span class="original d-block ms-2">12,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 8)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap6">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분 밀착 집중 케어</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 워터 듀 마스크</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            2,700원
+                                            <span class="original d-block ms-2">3,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.3(리뷰 3)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">촉촉한 수분 밀착 핑크 립밤</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 모이스처 립밤</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">5%</span>
+                                            9,500원
+                                            <span class="original d-block ms-2">10,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 2)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분 밀착 핑크 립밤 세트</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 모이스처 립밤 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            18,000원
+                                            <span class="original d-block ms-2">20,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 1)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분길 첫 토너</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 스킨 소프트닝 토너 200ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            16,000원
+                                            <span class="original d-block ms-2">20,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 13)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">핑크 수분 장벽 크림</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 워터 배리어 크림 50ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            22,400원
+                                            <span class="original d-block ms-2">28,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 197)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">수분과 윤기를 동시에!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 크리스탈 글로우 에센스 50ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            24,000원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 8)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">꿀광 수분 #인생 미스트</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">#정한 pick #아이돌필수템 #정한미스트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            12,000원
+                                            <span class="original d-block ms-2">15,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 116)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                        <div class="main-sec3-contwrap main-sec3-contwrap7">
+                            <div class="swiper mySwiper1">
+                                <div class="swiper-wrapper swiper-wrapper1">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img1"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">갈아만든 입자로 36시간 밀착!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            28,800원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 599)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img2"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            25,500원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 180)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img3"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">울긋불긋 스팟 위에 저자극 밀착 커버</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 파워 핏 컨실러 5.5g</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            12,600원
+                                            <span class="original d-block ms-2">14,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 240)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img4"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">가린 것 보다 더 예쁜 누드 커버</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 스킨 핏 틴티드 모이스처라이저</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            20,000원
+                                            <span class="original d-block ms-2">25,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 207)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img5"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">36시간 파워 밀착</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 파워 핏 롱웨어 쿠션(+리필) SPF38 PA++</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            27,200원
+                                            <span class="original d-block ms-2">34,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 328)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img6"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">오랜시간 영롱하게 빛나는</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">[유통기한2023.08.25]커버리셔스 글로우 핏 파운데이션 SPF25 PA++ 23 피넛</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">40%</span>
+                                            19,200원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 93)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="ms3-img">
+                                        <span class="ms3-img7"></span>
+                                    </div>
+                                    <div class="ms3-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">#새틴세팅쿠션 #결맞춤핏</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 스킨 핏 쿠션 SPF40 PA++</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            27,200원
+                                            <span class="original d-block ms-2">34,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 156)</span>
+                                            <span class="cart d-block ms-4"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-button-next swiper-button-next1"></div>
+                                <div class="swiper-button-prev swiper-button-prev1"></div>
+                              </div>
+                        </div>
+                    </div>
+                    <button class="main-sec3-close btn btn-light bg-white border border-dark rounded-pill px-5 py-2 d-block mx-auto">닫기</button>
+                </div>
+            </section>
+            <section class="main-sec4">
+                <div class="container">
+                    <div class="main-sec4-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4 pe-5">지금 가장 인기 있는 상품이에요!</h3>
+                        <a href="#" class="d-block position-absolute end-0">+ 전체보기</a>
+                    </div>
+                    <div class="main-sec4-cont position-relative">
+                        <div class="main-sec4-contwrap">
+                            <div class="swiper mySwiper2">
+                                <div class="swiper-wrapper swiper-wrapper2">
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">1</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img1"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            37,500원
+                                            <span class="original d-block ms-2">50,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 22)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">2</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img2"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">풍부하게 차오르는 수분 자신감</div>
+                                        <div class="brand">쿠스</div>
+                                        <div class="name">하이 유스 세럼 에센스&소프트 크림 세트</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            88,000원
+                                            <span class="original d-block ms-2">110,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 22)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">3</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img3"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">갈아만든 입자로 36시간 밀착!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            28,800원
+                                            <span class="original d-block ms-2">32,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 599)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">4</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img4"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">#뭉침없이 자연스러운 눈썹 표현</div>
+                                        <div class="brand">비바이바닐라</div>
+                                        <div class="name">스머지 아웃 디테일 브로우 펜슬</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">10%</span>
+                                            10,800원
+                                            <span class="original d-block ms-2">12,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 256)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">5</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img5"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린잇제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            22,500원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.8(리뷰 4)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">6</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img6"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">욕실을 빛나게 하는 감각적인 디자인</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 마블 에디션(100ml&120ml)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">30%</span>
+                                            21,000원
+                                            <span class="original d-block ms-2">30,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 233)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">7</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img7"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-19라이트(본품+리필)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 45)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">8</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img8"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-21로제(본품+리필)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            38,400원
+                                            <span class="original d-block ms-2">48,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.7(리뷰 45)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">9</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img9"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">매일 쓰니까 넉넉하게!</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 대용량 듀오 세트</div>
+                                        <div class="price d-flex align-items-end">
+                                            <span class="percent d-block me-2">10%</span>
+                                            45,000원
+                                            <span class="original d-block ms-2">50,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">4.9(리뷰 1076)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">10</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img10"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">생기있는 환한 눈가</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">NEW 디어 하이드레이션 바운스 아이 크림 20ML</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">20%</span>
+                                            20,000원
+                                            <span class="original d-block ms-2">25,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 23)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">11</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img11"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">뮤트톤의 밀키한 누디 베이지</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">글로우 베일 틴트-VGPK01 누디 니어</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">15%</span>
+                                            13,600원
+                                            <span class="original d-block ms-2">16,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 56)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <div class="swiper-slide swiper-slide1">
+                                    <div class="best">
+                                        <span class="d-block">BEST</span>
+                                        <span class="d-block">12</span>
+                                    </div>
+                                    <div class="ms4-img">
+                                        <span class="ms4-img12"></span>
+                                    </div>
+                                    <div class="ms4-text d-flex flex-column gap-1 ps-2">
+                                        <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                        <div class="brand">바닐라코</div>
+                                        <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                        <div class="price d-flex">
+                                            <span class="percent d-block me-2">25%</span>
+                                            37,500원
+                                            <span class="original d-block ms-2">50,000원</span>
+                                        </div>
+                                        <div class="bottom d-flex align-items-start">
+                                            <span class="rating d-block"></span>
+                                            <span class="review">5.0(리뷰 22)</span>
+                                            <span class="heart d-block"></span>
+                                            <span class="cart d-block ms-2"></span>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next swiper-button-next2"></div>
+                        <div class="swiper-button-prev swiper-button-prev2"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-sec5">
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">2023년 바닐라닷컴과 예쁜 추억 만들어요💗</h3>
+                        <span class="px-5">멤버십 애칭 응모&소망 댓글 이벤트! 참여만해도 포인트 100% 적립</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between gap-1 overflow-hidden">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner1_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner1_small1.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">글로우 베일 틴트-VGPK01 누디 니어</div>
+                                    <div class="price d-flex align-items-end">
+                                        <span class="percent d-block me-2">15%</span>
+                                        13,600원
+                                        <span class="original d-block ms-2">16,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 54)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner1_small2.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">비바이바닐라</div>
+                                    <div class="name">글로우 베일 틴트 듀오 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        25,600원
+                                        <span class="original d-block ms-2">32,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 29)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner1_small3.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">기타</div>
+                                    <div class="name">애프터 홈파티 편안한 애프터 후디 - 블랙</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">40%</span>
+                                        75,600원
+                                        <span class="original d-block ms-2">126,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 2)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">HELLO BEAUTIFUL GOOD BYE 2022</h3>
+                        <span class="px-5">바닐라닷컴에서 올 한해 사랑받은 아이템을 만나보세요!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between gap-1 overflow-hidden">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner2_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner2_small1.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">클린 잇 제로 클렌징밤 대용량 듀오 세트</div>
+                                    <div class="price d-flex align-items-end">
+                                        <span class="percent d-block me-2">10%</span>
+                                        45,000원
+                                        <span class="original d-block ms-2">50,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 1076)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner2_small2.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        28,800원
+                                        <span class="original d-block ms-2">32,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.8(리뷰 599)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner2_small3.jpg" alt="">
+                                <div class="d-flex flex-column ps-4 justify-content-center">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">커버리셔스 얼티밋 화이트 쿠션</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">15%</span>
+                                        25,500원
+                                        <span class="original d-block ms-2">30,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 180)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">바닐라닷컴 12월 쿠폰 혜택</h3>
+                        <span class="px-5">APP전용 전제품 5000원 할인 쿠폰 + 앱 365 무료배송 혜택!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner3_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner3_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프라임 프라이머 피니쉬 파우더 12g</div>
+                                    <div class="price d-flex">
+                                        22,000원
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 328)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner3_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">비바이바닐라</div>
+                                    <div class="name">글로우 베일 틴트 듀오 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        25,600원
+                                        <span class="original d-block ms-2">32,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 29)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner3_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">커버리셔스 얼티밋 화이트 쿠션</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">15%</span>
+                                        25,500원
+                                        <span class="original d-block ms-2">30,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 180)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">겨울 최적화 리얼 꿀광채 케어🍯</h3>
+                        <span class="px-5">레드 프로폴리스 성분으로 영양 듬뿍 보습막 형성!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner4_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner4_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 앰플 50ml</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        46,400원
+                                        <span class="original d-block ms-2">58,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 242)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner4_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">미스 플라워 앤 미스터 허니 미스트&에센스 스틱 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">25%</span>
+                                        32,250원
+                                        <span class="original d-block ms-2">43,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.7(리뷰 6)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner4_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">미스 플라워 앤 미스터 허니 프로폴리스 리쥬비네이팅 크림 70ml</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        38,400원
+                                        <span class="original d-block ms-2">48,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 225)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">바닐라코 뮤즈 신세경의 BEAUTY LOOK</h3>
+                        <span class="px-5">분위기 여신이 되는 FW 뷰티화보 속 아이템 공개!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner5_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner5_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-21로제(본품+리필)</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        38,400원
+                                        <span class="original d-block ms-2">48,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.7(리뷰 45)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner5_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">비바이바닐라</div>
+                                    <div class="name">무드 온 아이 팔레트-03 멜로우 모브-7G (뉴컬러)</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">15%</span>
+                                        13,600원
+                                        <span class="original d-block ms-2">16,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 62)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner5_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">비바이바닐라</div>
+                                    <div class="name">스머지 아웃 디테일 브로우 펜슬</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        10,800원
+                                        <span class="original d-block ms-2">12,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 256)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">바닐라코X이슬로 두번째 콜라보레이션</h3>
+                        <span class="px-5">사랑스러운 이슬로 클렌징 에디션을 만나보세요!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner6_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner6_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">클린 잇 제로 클렌징밤 오리지널(이슬로2) 100ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        16,200원
+                                        <span class="original d-block ms-2">18,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 97)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner6_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">클린잇제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">25%</span>
+                                        22,500원
+                                        <span class="original d-block ms-2">30,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.8(리뷰 4)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner6_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">25%</span>
+                                        37,500원
+                                        <span class="original d-block ms-2">50,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 22)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">NEW 디어 하이드레이션 마스크팩&립밤 런칭 이벤트</h3>
+                        <span class="px-5">찬바람에 건조해진 피부결을 풍부한 보습감으로 집중케어!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner7_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner7_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">NEW 디어 하이드레이션 모이스처 립밤 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        18,000원
+                                        <span class="original d-block ms-2">20,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 1)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner7_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">NEW 디어 하이드레이션 모이스처 립밤</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">5%</span>
+                                        9,500원
+                                        <span class="original d-block ms-2">10,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 2)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner7_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">NEW 디어 하이드레이션 워터 듀 마스크</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        2,700원
+                                        <span class="original d-block ms-2">3,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.3(리뷰 3)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">써 본 사람 누구나 인정하는 #클린잇제로</h3>
+                        <span class="px-5">전세계 누적 판매 6500만개! 클린 잇 제로 클렌징 밤✨</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner8_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner8_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">정한PICK💗 클린 잇 제로 클렌징밤 오리지널 100ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        16,200원
+                                        <span class="original d-block ms-2">18,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 987)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner8_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">클린 잇 제로 아나스타티카 쉽틸르 클렌징밤 리밸런싱-100ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        45,000원
+                                        <span class="original d-block ms-2">50,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.8(리뷰 46)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner8_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">정한PICK💗 클린 잇 제로 클렌징밤 포어 클래리파잉</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        16,200원
+                                        <span class="original d-block ms-2">18,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 987)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">한계를 넘어서는 #NO.1 프라이머</h3>
+                        <span class="px-5">프라이머는 역시 바닐라코! 더 좋아진 보정 효과를 경험해 보세요.</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner9_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner9_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프라임 프라이머 톤업 30ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        19,800원
+                                        <span class="original d-block ms-2">22,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 227)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner9_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프라임 프라이머 하이드레이팅 30ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        19,800원
+                                        <span class="original d-block ms-2">22,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 115)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner9_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프라임 프라이머 클래식 30ML</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        19,800원
+                                        <span class="original d-block ms-2">22,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 320)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">흐트러짐 없이 온종일 화사하게 #커버리셔스</h3>
+                        <span class="px-5">피부 결마다 매끈하게 밀착되어 하루종일 예쁜 피부!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner10_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner10_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-21로제(본품+리필)</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        38,400원
+                                        <span class="original d-block ms-2">48,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.7(리뷰 45)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner10_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">10%</span>
+                                        28,800원
+                                        <span class="original d-block ms-2">32,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.8(리뷰 599)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner10_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">커버리셔스 스킨 핏 쿠션 SPF40 PA++</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">20%</span>
+                                        27,200원
+                                        <span class="original d-block ms-2">34,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">4.9(리뷰 156)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">클린 잇 제로X쿠메 스페셜 기획세트</h3>
+                        <span class="px-5">프리미엄 클렌징 아나스타티카 라인과 콜라보 기획세트를 만나보세요!</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner11_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner11_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프리미엄제로X쿠메 달시 티오프타임세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">40%</span>
+                                        47,400원
+                                        <span class="original d-block ms-2">79,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block zero"></span>
+                                        <span class="review">0.0(리뷰 0)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner11_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프리미엄제로X쿠메 해피 라운딩 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">40%</span>
+                                        89,400원
+                                        <span class="original d-block ms-2">149,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block zero"></span>
+                                        <span class="review">0.0(리뷰 0)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner11_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">프리미엄제로X쿠메 달시 라이프타임 베스트 스코어 세트</div>
+                                    <div class="price d-flex">
+                                        <span class="percent d-block me-2">30%</span>
+                                        30,800원
+                                        <span class="original d-block ms-2">44,000원</span>
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 1)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="main-sec5-title d-flex align-items-end position-relative">
+                        <h3 class="fs-4">NEW 비건 클렌징밤 출시기념! Let's Go 플로깅🐾</h3>
+                        <span class="px-5">바닐라코 x MLB와 함께하는 플로깅 챌린지</span>
+                        <a href="#" class="d-block position-absolute end-0">+ 더보기</a>
+                    </div>
+                    <div class="main-sec5-contwrap d-flex justify-content-between">
+                        <div class="banner-left">
+                            <a href="#">
+                                <img src="./img/banner12_large.jfif" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right d-flex flex-column justify-content-between">
+                            <div class="d-flex">
+                                <img src="./img/banner12_small1.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">레츠고 플로깅 세트</div>
+                                    <div class="price d-flex">
+                                        58,000원
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 2)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner12_small2.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">컴포터블 플로깅 세트(하트로고셔츠 아이보리/블랙+NEW비건 씨씨+봉투</div>
+                                    <div class="price d-flex">
+                                        74,000원
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block zero"></span>
+                                        <span class="review">0.0(리뷰 0)</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="line"></span>
+                            <div class="d-flex">
+                                <img src="./img/banner12_small3.jpg" alt="">
+                                <div class="d-flex flex-column justify-content-center ps-4">
+                                    <div class="brand">바닐라코</div>
+                                    <div class="name">플러피 플로깅 세트(후리스 펫 가방 +NEW비건 씨씨+봉투+집게)</div>
+                                    <div class="price d-flex">
+                                        74,000원
+                                    </div>
+                                    <div class="bottom d-flex align-items-start">
+                                        <span class="rating d-block"></span>
+                                        <span class="review">5.0(리뷰 1)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-sec6">
+                <div class="container">
+                    <div class="main-sec6-wrap">
+                        <div class="main-sec6-title d-flex align-items-end position-relative">
+                            <h3 class="fs-4">지금 뜨는 상품</h3>
+                            <span class="px-5">매일매일 바닐라닷컴에서 가장 주목받는 상품을 살펴보세요</span>
+                        </div>
+                        <div class="main-sec6-rank mb-4">
+                            <ul class="d-flex">
+                                <li><a href="javascript:" class="fs-5 fw-bold rankOn tab-cart">데일리 장바구니 랭킹</a></li>
+                                <li><a href="javascript:" class="fs-5 fw-bold tab-view">데일리 조회수 랭킹</a></li>
+                            </ul>
+                        </div>
+                        <div class="mc6-tab mc6-cart">
+                            <div class="main-sec6-cont main-sec6-cont1 d-flex justify-content-between">
+                                <div class="main-sec6-cont-left main-sec6-cont-left2">
+                                    <ul>
+                                        <li>
+                                            <a href=".cr1" class="textOn d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>1</em>
+                                                <p>클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr2" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>2</em>
+                                                <p>정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA+++</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr3" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>3</em>
+                                                <p>클린잇제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr4" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>4</em>
+                                                <p>클린 잇 제로 클렌징밤 트래블 오리지널 키트</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr5" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>5</em>
+                                                <p>잇 래디언트 CC 크림 SPF30 PA++</p>
+                                                <span class="fw-bold">NEW</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-sec6-contwrap">
+                                    <div class="main-sec6-cont-right main-sec6-cont-right2 contOn cr1 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily1.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">25%</span>
+                                                37,500원
+                                                <span class="original d-block ms-2">50,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">5.0(리뷰 22)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#클린잇제로X이슬로</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right2 cr2 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily2.jpeg" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">갈아만든 입자로 36시간 밀착!</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">10%</span>
+                                                28,800원
+                                                <span class="original d-block ms-2">32,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.8(리뷰 599)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#커버리셔스</span>
+                                                <span>#정한픽</span>
+                                                <span>#2022어워드</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right2 cr3 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily3.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">클린 잇 제로 클렌징밤 오리지널 밤 100ml+폼 세트(이슬로2)</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">25%</span>
+                                                22,500원
+                                                <span class="original d-block ms-2">30,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.8(리뷰 4)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#NEW신제품</span>
+                                                <span>#클린잇제로X이슬로</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right2 cr4 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily4.jpeg" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">필요한만큼 파우치에 쏙! 세안 후에도 촉촉하게</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">클린 잇 제로 클렌징밤 트래블 오리지널 키트</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">10%</span>
+                                                10,800원
+                                                <span class="original d-block ms-2">12,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">5.0(리뷰 148)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right2 cr5 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily5.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">뷰티 어워즈 12관왕 수분 톤업 크림</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">잇 래디언트 CC 크림 SPF30 PA++</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">30%</span>
+                                                17,500원
+                                                <span class="original d-block ms-2">25,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.9(리뷰 1397)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mc6-tab mc6-view">
+                            <div class="main-sec6-cont main-sec6-cont2 d-flex justify-content-between">
+                                <div class="main-sec6-cont-left main-sec6-cont-left1">
+                                    <ul>
+                                        <li>
+                                            <a href=".cr6" class="textOn d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>1</em>
+                                                <p>클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr7" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>2</em>
+                                                <p>클린 잇 제로 클렌징밤 대용량 듀오 세트</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr8" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>3</em>
+                                                <p>커버리셔스 얼티밋 화이트 쿠션 세트-23미디엄(본품+리필)</p>
+                                                <span class="fw-bold">NEW</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr9" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>4</em>
+                                                <p>정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href=".cr10" class="d-flex justify-content-between d-block border py-2 px-3 mb-2 align-items-center">
+                                                <em>5</em>
+                                                <p>커버리셔스 얼티밋 화이트 쿠션</p>
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="main-sec6-contwrap">
+                                    <div class="main-sec6-cont-right main-sec6-cont-right1 contOn cr6 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily6.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">바닐라코X이슬로🐰두번째 에디션</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">클린 잇 제로 클렌징밤 오리지널 대용량 듀오세트(이슬로2)</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">25%</span>
+                                                37,500원
+                                                <span class="original d-block ms-2">50,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">5.0(리뷰 22)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#클린잇제로X이슬로</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right1 cr7 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily7.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">매일 쓰니까 넉넉하게</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">클린 잇 제로 클렌징밤 대용량 듀오 세트</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">10%</span>
+                                                45,000원
+                                                <span class="original d-block ms-2">50,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.9(리뷰 1075)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#2022어워드</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right1 cr8 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily8.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">커버리셔스 얼티밋 화이트 쿠션 세트-23미디엄(본품+리필)</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">20%</span>
+                                                38,400원
+                                                <span class="original d-block ms-2">48,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.7(리뷰 12)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#정한픽</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right1 cr9 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily9.jpeg" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">갈아만든 입자로 36시간 밀착!</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">정한PICK💗 커버리셔스 파워 핏 파운데이션 SPF45 PA++</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">10%</span>
+                                                28,800원
+                                                <span class="original d-block ms-2">32,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.8(리뷰 599)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#커버리셔스</span>
+                                                <span>#정한픽</span>
+                                                <span>#2022어워드</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-sec6-cont-right main-sec6-cont-right1 cr10 d-flex align-items-center">
+                                        <div class="img">
+                                            <img src="./img/daily10.png" alt="">
+                                        </div>
+                                        <div class="text d-flex flex-column gap-2">
+                                            <div class="title">온종일 화사하게 NEW 화이트 쿠션</div>
+                                            <div class="brand">바닐라코</div>
+                                            <div class="name">커버리셔스 얼티밋 화이트 쿠션</div>
+                                            <div class="price d-flex">
+                                                <span class="percent d-block me-2">15%</span>
+                                                25,500원
+                                                <span class="original d-block ms-2">30,000원</span>
+                                            </div>
+                                            <div class="bottom d-flex align-items-start">
+                                                <span class="rating d-block"></span>
+                                                <span class="review">4.9(리뷰 180)</span>
+                                                <span class="heart d-block"></span>
+                                                <span class="cart d-block ms-2"></span>
+                                            </div>
+                                            <div class="hash">
+                                                <span>#뷰티룩</span>
+                                                <span>#커버리셔스</span>
+                                                <span>#2022어워드</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main-sec7">
+                <div class="container">
+                    <div class="main-sec7-login">
+                        <p>로그인 하시면 <br> 고객님을 위한 추천상품을 소개해드려요!</p>
+                        <button class="btn btn-dark rounded-pill">로그인하기</button>
+                    </div>
+                    <div class="main-sec7-info">
+                        <ul class="d-flex justify-content-between">
+                            <li>
+                                <a href="#" class="d-flex border rounded align-items-center">
+                                    <div class="infoImg">
+                                        <span></span>
+                                        <em>security <br> code</em>
+                                    </div>
+                                    <div class="infoText">
+                                        <h4>100% 정품</h4>
+                                        <span>믿고 구매할 수 있는 본사 운영 공식몰</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex border rounded align-items-center">
+                                    <div class="infoImg">
+                                        <span></span>
+                                        <em>delivery <br> service</em>
+                                    </div>
+                                    <div class="infoText">
+                                        <h4>우체국 택배</h4>
+                                        <span>신속! 안전! 만족도 높은 배송</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="d-flex border rounded align-items-center">
+                                    <div class="infoImg">
+                                        <span></span>
+                                        <em>exp <br> (expiry date)</em>
+                                    </div>
+                                    <div class="infoText">
+                                        <h4>유통기한 걱정 NO</h4>
+                                        <span>철저한 관리, 최신제품만 판매</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <section class="footer-sec1 d-flex justify-content-between">
+                    <div class="footer-sec1-notice d-flex gap-2">
+                        <p>공지사항</p>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    [바닐라닷컴]새해 연휴 배송공지
+                                </a>
+                                <span>2022-12-21</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    [바닐라닷컴]화이트 얼티밋 쿠션 리뷰 당첨자 안내
+                                </a>
+                                <span>2022-10-04</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    [바닐라닷컴]사이트 점검 안내(9/16~9/18)	
+                                </a>
+                                <span>2022-09-13</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-sec1-customer d-flex flex-column justify-content-between">
+                        <h4>고객센터</h4>
+                        <div class="d-flex">
+                            <em class="me-3">080-225-6500</em>
+                            <button class="rounded-pill bg-white border me-1">FAQ</button>
+                            <button class="rounded-pill bg-white border">1:1문의</button>
+                        </div>
+                        <span>이용시간 AM 09:00~PM 06:00 / 점심시간 PM 12:00~PM 01:00 / 휴무 (토,일,공휴일)</span>
+                    </div>
+                    <div class="footer-sec1-mobile d-flex gap-2">
+                        <span></span>
+                        <div class="d-flex flex-column justify-content-between py-2">
+                            <h4>BANILA.COM MOBILE APP</h4>
+                            <span>바닐라닷컴을 모바일 앱으로 만나보세요</span>
+                            <a href="#">Mobile버전</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container">
+                <section class="footer-sec2">
+                    <div class="d-flex mb-4">
+                        <span>서비스 이용약관</span>
+                        <span>개인정보처리방침</span>
+                        <span>이메일무단수집거부</span>
+                        <span>제휴문의</span>
+                        <span>해외수출문의(Business inquiry)</span>
+                        <span>SNS 저작물 이용 동의서</span>
+                    </div>
+                    <div class="d-flex mb-1">
+                        <span>(주)에프엔코</span>
+                        <span>서울특별시 강남구 테헤란로 223, 4층</span>
+                        <span>대표: 김창수</span>
+                        <span>사업자등록번호 214-86-49402</span>
+                        <span>사업자 정보 확인</span>
+                        <span>에스크로 서비스 가입 확인</span>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <span>통신판매번호 : 2012-서울강남-03253</span>
+                        <span>고객센터 : 080-225-6500</span>
+                        <span>FAX : 521-2329</span>
+                        <span>관리자이메일 : banila@banila.com</span>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <span>Copyright F&Co. Co. Ltd All Right Reserved</span>
+                    </div>
+                    <div class="d-flex mb-3 ico">
+                        <span>BANILA CO</span>
+                        <span>B. by BANILA</span>
+                        <span>ku:s</span>
+                        <span>CURLY STUDIO</span>
+                    </div>
+                    <div class="d-flex last">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
