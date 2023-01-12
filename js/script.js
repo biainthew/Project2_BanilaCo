@@ -106,8 +106,8 @@ var swiper1 = new Swiper(".mySwiper1", {
         },
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next1",
+        prevEl: ".swiper-button-prev1",
     },
 });
 
@@ -165,8 +165,8 @@ var swiper2 = new Swiper(".mySwiper2", {
         },
     },
     navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-button-next2",
+        prevEl: ".swiper-button-prev2",
     },
 });
 

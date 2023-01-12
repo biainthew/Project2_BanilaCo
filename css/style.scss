@@ -383,11 +383,11 @@ body{font-family:'noto','맑은고딕',sans-serif;}
             .swiper-button-prev::after {
                 display: none;
             }
-            .swiper-button-prev{
+            .swiper-button-prev1{
                 @include slideBtnPrev;
                 left: 0
             }
-            .swiper-button-next{
+            .swiper-button-next1{
                 @include slideBtnNext;
                 right: 0;
             }
@@ -395,6 +395,7 @@ body{font-family:'noto','맑은고딕',sans-serif;}
         .block{
             display: block;
         }
+
         &-contwrap2{
             .swiper-slide{
                 .ms3-img{

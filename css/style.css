@@ -763,7 +763,7 @@ body {
 .main-sec3-contwrap .swiper-button-prev::after {
   display: none;
 }
-.main-sec3-contwrap .swiper-button-prev {
+.main-sec3-contwrap .swiper-button-prev1 {
   background: var(--bs-white) url(../img/btn_prev.png) no-repeat;
   position: absolute;
   width: 38px;
@@ -774,10 +774,10 @@ body {
   border: 1px solid var(--bs-gray-300);
   left: 0;
 }
-.main-sec3-contwrap .swiper-button-prev:hover {
+.main-sec3-contwrap .swiper-button-prev1:hover {
   border-color: var(--bs-black);
 }
-.main-sec3-contwrap .swiper-button-next {
+.main-sec3-contwrap .swiper-button-next1 {
   background: var(--bs-white) url(../img/btn_next.png) no-repeat;
   position: absolute;
   width: 38px;
@@ -788,7 +788,7 @@ body {
   border: 1px solid var(--bs-gray-300);
   right: 0;
 }
-.main-sec3-contwrap .swiper-button-next:hover {
+.main-sec3-contwrap .swiper-button-next1:hover {
   border-color: var(--bs-black);
 }
 .main-sec3 .block {
