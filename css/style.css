@@ -1796,6 +1796,7 @@ body {
   #nav > .container {
     padding: 0 !important;
     --bs-gutter-x: 0 !important;
+    margin-right: 10px;
   }
   .footer-sec2 .ico > span {
     font-size: 10px;
