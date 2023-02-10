@@ -98,6 +98,9 @@
       }
     #nav>.container>ul.nav-list{display: none !important;}
     .nav-slide{display: none;}
+    .nav-catetitle{
+        padding: 15px !important;
+    }
     .main-sec2 .swiper {
         left: 0 !important;
         width: 52.25rem !important;
@@ -156,8 +159,15 @@
     .footer-sec2 .ico, .footer-sec2 .last{
         display: flex !important;
     }
+    .main-sec4-title:after{
+        width: 87%;
+    }
 }
 @media screen and (max-width:767px) {
+    .container{
+        max-width: 100% !important;
+        padding: 0 15px !important;
+    }
     html{font-size: 12px;}
     .nav-catecont{width: 44rem !important;}
     .main-sec1-nav ul li{
@@ -165,7 +175,22 @@
     }
     .main-sec1-nav ul li a{font-size: 0.9%;}
     .main-sec2 .swiper{
-        width: 60rem !important;
+        width: auto !important;
+    }
+    .main-sec2 .swiper .swiper-button-next, .main-sec2 .swiper .swiper-button-prev, .main-sec2 .swiper .swiper-pagination {
+        display: none;
+    }
+    .main-sec2 .swiper.container{
+        padding: 0 !important;
+    }
+    .main-sec2 .swiper .swiper-wrapper .desktop{
+        display: none;
+    }
+    .main-sec2 .swiper .swiper-wrapper .mobile{
+        display: block;
+    }
+    .main-sec2 .swiper .swiper-wrapper .swiper-slide img{
+        width: 100% !important;
     }
     .main-sec4-contwrap .swiper-slide1 .ms4-img{
         width: 100% !important;
@@ -174,13 +199,47 @@
     .main-sec4-contwrap .swiper-wrapper2{
         margin-left: 0 !important;
     }
-    .main-sec4-contwrap .swiper-slide1 .ms4-text .bottom .heart{
-        margin-left: 320px !important;
-    }
     .main-sec7-info ul{
         flex-direction: column;
     }
     .main-sec7-info ul li a{
         width: 100% !important;
+    }
+    .main-sec6-cont .main-sec6-contwrap{
+        display: none;
+    }
+}
+@media screen and (max-width:576px) {
+    .nav-catecont{
+        width: 28rem !important;
+    }
+    .nav-catecont ul li ul li a{
+        font-size: 12px;
+    }
+    .main-sec3-contwrap .swiper-slide .ms3-img{
+        margin: 0 auto !important;
+    }
+    .main-sec3-contwrap .swiper-slide .ms3-text{
+        width: 80% !important;
+        margin: 0 auto !important;
+    }
+    .main-sec4-contwrap .swiper-slide1 .ms4-text{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-sec4-title:after{
+        width: 0%;
+    }
+} 
+@media screen and (max-width:400px) {
+    .header-mypagewrap{
+        display: none;
+    }
+    #nav>.container{
+        padding: 0 !important;
+        --bs-gutter-x: 0 !important;
+    }
+    .footer-sec2 .ico > span{
+        font-size: 10px;
     }
 }

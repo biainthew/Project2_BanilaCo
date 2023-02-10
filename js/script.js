@@ -71,10 +71,9 @@ nbtnPrev.hover(function(){
 },function(){
     rolling();
 });
-
 //메인 슬라이드
 var swiper = new Swiper(".mySwiper", {
-    autoplay: true,
+    // autoplay: true,
     loop: true,
     pagination: {
       el: ".swiper-pagination",
@@ -84,7 +83,6 @@ var swiper = new Swiper(".mySwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-
   });
 // $('.swiper-pagination').html('<span class="swiper-pagination-current"></span> <span class="swiper-pagination-total"></span>');
 //hot key word
@@ -104,6 +102,9 @@ var swiper1 = new Swiper(".mySwiper1", {
         576: {
             slidesPerView: 2,
         },
+        350: {
+            slidesPerView: 1,
+        }
     },
     navigation: {
         nextEl: ".swiper-button-next1",
@@ -159,14 +160,23 @@ var swiper2 = new Swiper(".mySwiper2", {
             slidesPerView: 3,
             slidesPerGroup: 3,
         },
-        768: {
+        // 768: {
+        //     slidesPerView: 2,
+        //     slidesPerGroup: 2,
+        // },
+        576: {
             slidesPerView: 2,
             slidesPerGroup: 2,
         },
+        350:{
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+        }
+
     },
     navigation: {
         nextEl: ".swiper-button-next2",
-        prevEl: ".swiper-button-prev2",
+        prevEl: ".swiper-button-prev2git ",
     },
 });
 

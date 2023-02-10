@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import "mixin";
-@import "media";
+
 
 // .container{background: rgba(0,0,0,.1);}
 $pink : #ff65af;
@@ -274,6 +274,12 @@ body{font-family:'noto','맑은고딕',sans-serif;}
                         display: block;
                     }
                 }
+                .mobile{
+                    display: none;
+                }
+            }
+            .swiper-wrapper.mobile{
+                display: none;
             }
             .swiper-button-prev{
                 left: .5rem;
@@ -395,7 +401,6 @@ body{font-family:'noto','맑은고딕',sans-serif;}
         .block{
             display: block;
         }
-
         &-contwrap2{
             .swiper-slide{
                 .ms3-img{
@@ -918,3 +923,4 @@ body{font-family:'noto','맑은고딕',sans-serif;}
         }
     }
 }
+@import "media";
